@@ -1,0 +1,46 @@
+.h1-home-page {
+  color: #FFFFFF;
+  width: 490px;
+  height: 96px;
+}
+
+.p-home-page {
+  color: #FFFFFF;
+  width: 584px;
+  height: 48px;
+}
+
+.playIcon-container {
+  background-color: #00C88C;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 0 0;
+}
+
+.play-description-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 400px;
+  margin: 20px 0 0 0;
+}
+
+.head-line-container {
+  margin: 15vh 0 0 5vw;
+  width: 584px;
+}
+
+.playIcon {
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.playIcon-description {
+  color: #FFFFFF;
+  width: 246px;
+  height: 24px;
+}

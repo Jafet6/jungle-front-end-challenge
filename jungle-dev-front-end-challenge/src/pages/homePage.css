@@ -1,3 +1,7 @@
 .home-page-container {
-  
+  background-image: url('../images/homePage/Image.svg');
+  width: 100vw;
+  height: 616px;
+  /* opacity: 20%; */
+  background-color: rgba(147, 48, 217, 0.827);
 }
