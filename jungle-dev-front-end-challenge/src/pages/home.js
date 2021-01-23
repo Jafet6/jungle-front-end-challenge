@@ -6,10 +6,12 @@ import Footer from '../patterns/footer';
 import HeadLine from '../components/headline/headline';
 import NannyAvailable from '../components/nannyAvailable/nannyAvailable';
 import ImageParagraphComponent from '../components/imageParagraphComponent/imageParagraphComponent';
+import StandardSection from '../components/standardSection/standardSection';
 import Divider from '../components/divider/divider';
 import NewsLetter from '../components/newsletter/newsletter';
 import nannyCostStructure from '../components/imageParagraphComponent/structures/nannyCostStructure';
 import sharePaymentStructure from '../components/imageParagraphComponent/structures/sharePaymentsStructure';
+import frameWorkStructure from '../components/imageParagraphComponent/structures/frameWorkStructure';
 
 function HomePage() {
   return (
@@ -40,6 +42,13 @@ function HomePage() {
               image={sharePaymentStructure.image}
               reverse={true}
             />
+            <Divider />
+            <StandardSection 
+              link={frameWorkStructure.link}
+              paragraph={frameWorkStructure.paragraph}
+              title={frameWorkStructure.title}
+            />
+            <Divider />
           </div>
         </main>
       </div>
