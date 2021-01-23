@@ -7,7 +7,14 @@
 .image-paragraph-content {
   width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-paragraph-content-reverse {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -20,6 +27,12 @@
   .image-paragraph-content {
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+
+  .image-paragraph-content-reverse {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './shareNannyCost.css';
+import './sharePayment.css'
 
 
 function ImageParagraphTitle({ className, text }) {
@@ -17,9 +18,9 @@ function ImageParagraphParagraph({ className, text }) {
   );
 }
 
-function ImageParagraphImage({ className, src, alt }) {
+function ImageParagraphImage({ classNameDiv, className, src, alt }) {
   return (
-    <div>
+    <div className={classNameDiv}>
       <img className={className} src={src} alt={alt} />
     </div>
   );

@@ -6,7 +6,8 @@
 
 .share-nanny-cost-p {
   width: 444px;
-  height: 224px;
+  height: auto;
+  margin: 0 0 40px 0;
 }
 
 .share-nany-cost-link {

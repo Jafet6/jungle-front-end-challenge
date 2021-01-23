@@ -8,12 +8,8 @@ import NannyAvailable from '../components/nannyAvailable/nannyAvailable';
 import ImageParagraphComponent from '../components/imageParagraphComponent/imageParagraphComponent';
 import Divider from '../components/divider/divider';
 import NewsLetter from '../components/newsletter/newsletter';
-// import SharePayments from '../components/sharePayments/sharePayments';
-import {
-  ImageParagraphTitle,
-  ImageParagraphImage,
-  ImageParagraphLink,
-  ImageParagraphParagraph } from '../components/imageParagraphComponent/innerComponents/innerComponents';
+import nannyCostStructure from '../components/imageParagraphComponent/structures/nannyCostStructure';
+import sharePaymentStructure from '../components/imageParagraphComponent/structures/sharePaymentsStructure';
 
 function HomePage() {
   return (
@@ -29,19 +25,20 @@ function HomePage() {
           <div className='main-after-image'>
             <NannyAvailable />
             <ImageParagraphComponent 
-              Link={ImageParagraphLink}
-              Paragraph={ImageParagraphParagraph}
-              Title={ImageParagraphTitle}
-              Image={ImageParagraphImage}
+              link={nannyCostStructure.link}
+              paragraph={nannyCostStructure.paragraph}
+              title={nannyCostStructure.title}
+              image={nannyCostStructure.image}
             />
             <Divider />
             <NewsLetter />
             <Divider />
             <ImageParagraphComponent 
-              Link={ImageParagraphLink}
-              Paragraph={ImageParagraphParagraph}
-              Title={ImageParagraphTitle}
-              Image={ImageParagraphImage}
+              link={sharePaymentStructure.link}
+              paragraph={sharePaymentStructure.paragraph}
+              title={sharePaymentStructure.title}
+              image={sharePaymentStructure.image}
+              reverse={true}
             />
           </div>
         </main>
