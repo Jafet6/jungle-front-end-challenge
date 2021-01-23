@@ -29,9 +29,15 @@
   margin: 20px 0 0 0;
 }
 
-.head-line-container {
-  margin: 15vh 0 0 5vw;
+.head-line-left {
   width: 584px;
+}
+
+.head-line-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95vw;
 }
 
 .playIcon {
@@ -43,4 +49,31 @@
   color: #FFFFFF;
   width: 246px;
   height: 24px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 415px) {
+  .greeting-image {
+    display: none;
+  }
+
+  .head-line-left {
+    width: 92vw;
+  }
+
+  .h1-home-page {
+    width: 92vw;
+    margin: 0 0 40px 0;
+    text-align: center;
+  }
+
+  .p-home-page {
+    width: 92vw;
+    margin: 0 0 70px 0;
+    text-align: center;
+  }
+
+  .play-description-container {
+    width: 95vw;
+  }
 }

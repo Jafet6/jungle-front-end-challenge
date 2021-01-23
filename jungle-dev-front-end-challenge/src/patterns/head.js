@@ -4,13 +4,11 @@ import PropTypes from 'prop-types';
 
 function Head({ title }) {
   return (
-    <head>
-      <Helmet>
-        <title>
-          {title}
-        </title>
-      </Helmet>
-    </head>
+    <Helmet>
+      <title>
+        {title}
+      </title>
+    </Helmet>
   );
 };
 
