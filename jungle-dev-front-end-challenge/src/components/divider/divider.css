@@ -1,0 +1,12 @@
+.divider-draw {
+  width: 75vw;
+  margin: 0 12.5vw 0 12.5vw;
+  border: 2px solid #DFDFDF;
+}
+
+@media screen and (max-width: 415px) {
+  .divider-draw {
+    width: 95vw;
+    margin: 0 2.5vw 0 2.5vw;
+  }
+}

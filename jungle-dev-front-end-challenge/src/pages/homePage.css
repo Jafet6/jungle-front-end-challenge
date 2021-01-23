@@ -1,0 +1,47 @@
+.home-page-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/homePage/Image.svg');
+  width: 100vw;
+  height: 616px;
+  /* opacity: 20%; */
+  background-color: rgba(147, 48, 217, 0.827);
+}
+
+.main-after-image {
+  position: absolute;
+  top: 616px;
+}
+
+.home-page-container {
+  position: relative;
+  top: 0px;
+  left: 0px
+}
+
+.head-line-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0 0 5vw;
+}
+
+@media screen and (max-width: 415px) {
+  .head-line-container {
+    margin: 10vh 0 0 0;
+  }
+
+  .home-page-image {
+    position: absolute;
+    width: 100vw;
+    height: 540px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .main-after-image {
+    position: absolute;
+    top: 540px;
+  }
+}

@@ -1,0 +1,49 @@
+.nanny-available-container {
+  width: 100vw;
+  height: 112px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nanny-available-link {
+  color: #5E20A4;
+}
+
+.nanny-image {
+  margin: 10px;
+}
+
+.nanny-available-right {
+  display: flex;
+  justify-content: space-around;
+  width: 640px;
+}
+
+
+@media screen and (max-width: 415px) {
+  .nanny-available-container {
+    width: 100vw;
+    height: 216px;
+    left: 0px;
+    display: flex;
+    flex-direction: column; 
+  }
+  .nanny-available-right {
+    flex-direction: column; 
+    align-items: center;
+    width: 100vw;
+  }
+
+  .nanny-available-link {
+    height: 48px;
+    width: 212px;
+    text-align: center;
+  }
+
+  .nanny-availability {
+    height: 20px;
+    color: #000000;
+  }
+}
