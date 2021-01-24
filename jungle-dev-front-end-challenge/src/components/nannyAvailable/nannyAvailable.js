@@ -10,7 +10,7 @@ function NannyAvailable() {
         <img className="nanny-image" src={profileImage} alt='nanny' />
       </div>
       <div className="nanny-available-right">
-        <Link className="nanny-available-link" to="6">Sarah’s day care available now in North Sydney</Link>
+        <Link className="nanny-available-link" to="/6">Sarah’s day care available now in North Sydney</Link>
         <span className="nanny-availability">Wednesday, Thursday, Friday - 7:30 - 5:30</span>
       </div>
     </section>

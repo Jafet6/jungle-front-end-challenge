@@ -11,7 +11,8 @@ import Divider from '../components/divider/divider';
 import NewsLetter from '../components/newsletter/newsletter';
 import nannyCostStructure from '../components/imageParagraphComponent/structures/nannyCostStructure';
 import sharePaymentStructure from '../components/imageParagraphComponent/structures/sharePaymentsStructure';
-import frameWorkStructure from '../components/imageParagraphComponent/structures/frameWorkStructure';
+import frameWorkStructure from '../components/standardSection/structures/frameWorkStructure';
+import comingSoonStructure from '../components/standardSection/structures/comingSoonStructure';
 
 function HomePage() {
   return (
@@ -47,12 +48,20 @@ function HomePage() {
               link={frameWorkStructure.link}
               paragraph={frameWorkStructure.paragraph}
               title={frameWorkStructure.title}
+              image={frameWorkStructure.image}
             />
             <Divider />
+            <StandardSection 
+              link={false}
+              paragraph={comingSoonStructure.paragraph}
+              title={comingSoonStructure.title}
+              image={comingSoonStructure.image}
+              reverse={true}
+            />
+            <Footer />
           </div>
         </main>
       </div>
-      <Footer />
     </>
   );
 }

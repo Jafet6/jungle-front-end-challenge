@@ -1,3 +1,5 @@
+import imageSection4 from '../../../images/homePage/imageSection4.svg';
+
 const frameWorkStructure = {
   title: {
     className: 'standard-section-h2',
@@ -10,7 +12,13 @@ const frameWorkStructure = {
   link: {
     className: 'share-nany-cost-link',
     text: 'Read how Hapu’s tribal background defines our app ',
-    href: '8',
+    href: '/8',
+  },
+  image: {
+    className: 'nanny-cost-section-image',
+    src: imageSection4,
+    alt: 'billing history',
+    classNameDiv: 'section4-image-display-none'
   },
 }
 

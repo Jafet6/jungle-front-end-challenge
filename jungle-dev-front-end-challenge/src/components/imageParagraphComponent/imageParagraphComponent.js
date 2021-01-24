@@ -33,7 +33,7 @@ function ImageParagraphComponent({ title, paragraph, link, image, reverse = fals
           <ImageParagraphLink
             className={link.className}
             text={link.text}
-            href={title.href}
+            href={link.href}
           />
         </div>
         {reverse ? 
