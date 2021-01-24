@@ -16,10 +16,12 @@ function NewsLetter() {
       })
       .then((res) => {
         if (!res) return setNewsLetterMessage('Something went wrong =(')
+        console.log(res)
         return setNewsLetterMessage('Your request was received =)')
       })
       .catch((err) => {
         console.log(err)
+        return setNewsLetterMessage('Something went wrong =(')
       })
   }
 
