@@ -12,7 +12,7 @@ const nannyCostStructure = {
   link: {
     className: 'share-nany-cost-link',
     text: 'Ready to get started?',
-    href: '7',
+    href: '/7',
   },
   image: {
     className: 'nanny-cost-section-image',

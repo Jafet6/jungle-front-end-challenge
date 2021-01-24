@@ -1,0 +1,112 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #FFFFFF;
+  padding: 80px 0 40px 0;
+}
+
+.footer-btn {
+  background-color: #5E20A4;
+  color: #FFFFFF;
+  width: 304px;
+  height: 68px;
+  border-radius: 4px;
+}
+
+.footer-btn-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-btn-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3rem;
+  text-align: start;
+}
+
+.footer-link-purple {
+  color: #5E20A4;
+  margin: 20px;
+}
+
+.footer-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.footer-normal-link {
+  text-decoration: none;
+  color: #3D3D3D;
+}
+
+.copyright {
+  color: #3D3D3D;
+  opacity: 60.26%;
+  margin: 30px 0 0 0;
+}
+
+.footer-h2 {
+  margin: 0 0 20px 0;
+}
+
+.footer-span {
+  margin: 0 0 30px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  margin: 40px 0 30px 0;
+}
+
+.footer-social-media {
+  margin: 5px;
+}
+
+.footer-hapus-logo {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-media-container {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-divider {
+  display: none;
+}
+
+@media screen and (max-width: 415px) {
+  .footer-bottom {
+    flex-direction: column;
+    margin: 40px 0 30px 0;
+  }
+
+  .footer-links-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60vw;
+    margin: 20px 0 10px 0;
+    line-height: 2.2rem;
+  }
+
+  .footer-normal-link {
+    margin: 5px;
+  }
+
+  .footer-divider {
+    display: flex;
+  }
+}

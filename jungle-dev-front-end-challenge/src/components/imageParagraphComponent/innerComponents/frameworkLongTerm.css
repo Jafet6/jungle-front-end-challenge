@@ -1,0 +1,10 @@
+.section4-image-display-none {
+  margin: 0 0 40px 0
+}
+
+@media screen and (max-width: 415px) {
+  .section4-image-display-none {
+    display: none;
+    margin: 0;
+  }
+}

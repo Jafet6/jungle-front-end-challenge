@@ -12,7 +12,7 @@ const sharePaymentStructure = {
   link: {
     className: 'share-nany-cost-link',
     text: 'Read how Bridget’s share (without Hapu) ended over $15',
-    href: '8',
+    href: '/8',
   },
   image: {
     className: 'share-payment-section-image',
