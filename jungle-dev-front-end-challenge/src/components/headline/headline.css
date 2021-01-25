@@ -50,6 +50,7 @@
   width: 246px;
   height: 24px;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 415px) {
