@@ -39,7 +39,6 @@ function HeadLine() {
     if (!localStorage.getItem('userId')) {
       crypto.randomBytes(16, (err, hash) => {
         const userId = hash.toString('hex')
-        console.log('u9asdhyfuihasdfjohsdaihjfuiohjasdf', userId)
         localStorage.setItem('userId', userId)
         setUserId(userId);
       })
