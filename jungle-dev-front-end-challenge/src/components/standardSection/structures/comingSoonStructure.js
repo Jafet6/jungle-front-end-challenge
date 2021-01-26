@@ -12,7 +12,7 @@ const comingSoonStructure = {
   image: {
     className: 'coming-soon-section-image',
     src: imageSection5,
-    alt: 'billing history',
+    alt: 'daily diary',
   },
 }
 

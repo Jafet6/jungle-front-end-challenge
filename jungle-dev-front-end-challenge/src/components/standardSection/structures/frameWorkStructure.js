@@ -17,7 +17,7 @@ const frameWorkStructure = {
   image: {
     className: 'nanny-cost-section-image',
     src: imageSection4,
-    alt: 'billing history',
+    alt: 'your billing history',
     classNameDiv: 'section4-image-display-none'
   },
 }

@@ -2,11 +2,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url('../images/homePage/Image.svg');
+  background-image: url('../images/homePage/Image.svg'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
   width: 100vw;
   height: 616px;
-  /* opacity: 20%; */
-  background-color: rgba(147, 48, 217, 0.827);
 }
 
 .main-after-image {
@@ -34,6 +32,7 @@
 
   .home-page-image {
     position: absolute;
+    background-image: url('../images/homePage/mobileImage.svg'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
     width: 100vw;
     height: 540px;
     left: 0px;
