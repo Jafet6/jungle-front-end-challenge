@@ -1,7 +1,7 @@
 # jungle-front-end-challenge
 
-##run development mode
+## run development mode
 npm start
 
-##create production builds
+## create production builds
 npm run build
