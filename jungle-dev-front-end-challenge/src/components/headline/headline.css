@@ -1,32 +1,32 @@
 .h1-home-page {
   color: #FFFFFF;
-  width: 490px;
   height: 96px;
+  width: 490px;
 }
 
 .p-home-page {
   color: #FFFFFF;
-  width: 584px;
   height: 48px;
+  width: 584px;
 }
 
 .playIcon-container {
+  align-items: center;
   background-color: #00C88C;
   border-radius: 50%;
-  width: 48px;
-  height: 48px;
   display: flex;
+  height: 48px;
   justify-content: center;
-  align-items: center;
   margin: 0px 10px 0 0;
+  width: 48px;
 }
 
 .play-description-container {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: flex-start;
-  width: 400px;
   margin: 20px 0 0 0;
+  width: 400px;
 }
 
 .head-line-left {
@@ -34,9 +34,9 @@
 }
 
 .head-line-content {
+  align-items: center;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   width: 95vw;
 }
 
@@ -47,10 +47,10 @@
 
 .playIcon-description {
   color: #FFFFFF;
-  width: 246px;
+  cursor: pointer;
   height: 24px;
   text-decoration: underline;
-  cursor: pointer;
+  width: 246px;
 }
 
 @media screen and (max-width: 415px) {
@@ -63,15 +63,15 @@
   }
 
   .h1-home-page {
-    width: 92vw;
     margin: 0 0 40px 0;
     text-align: center;
+    width: 92vw;
   }
 
   .p-home-page {
-    width: 92vw;
     margin: 0 0 70px 0;
     text-align: center;
+    width: 92vw;
   }
 
   .play-description-container {

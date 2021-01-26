@@ -1,10 +1,10 @@
 .nanny-available-container {
-  width: 100vw;
-  height: 112px;
+  align-items: center;
   background: #FFFFFF;
   display: flex;
-  align-items: center;
+  height: 112px;
   justify-content: center;
+  width: 100vw;
 }
 
 .nanny-available-link {
@@ -24,26 +24,26 @@
 
 @media screen and (max-width: 415px) {
   .nanny-available-container {
-    width: 100vw;
-    height: 216px;
-    left: 0px;
     display: flex;
     flex-direction: column; 
+    height: 216px;
+    left: 0px;
+    width: 100vw;
   }
   .nanny-available-right {
-    flex-direction: column; 
     align-items: center;
+    flex-direction: column; 
     width: 100vw;
   }
 
   .nanny-available-link {
     height: 48px;
-    width: 212px;
     text-align: center;
+    width: 212px;
   }
 
   .nanny-availability {
-    height: 20px;
     color: #000000;
+    height: 20px;
   }
 }

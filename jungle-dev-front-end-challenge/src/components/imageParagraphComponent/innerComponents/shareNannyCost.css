@@ -1,13 +1,13 @@
 .share-nanny-cost-h2 {
-  width: 250px;
   height: 64px;
   margin: 0 0 40px 0;
+  width: 250px;
 }
 
 .share-nanny-cost-p {
-  width: 444px;
   height: auto;
   margin: 0 0 40px 0;
+  width: 444px;
 }
 
 .share-nany-cost-link {
@@ -21,8 +21,8 @@
   }
 
   .share-nanny-cost-p {
-    width: 90vw;
     text-align: center;
+    width: 90vw;
   }
 
   .nanny-cost-section-image {
