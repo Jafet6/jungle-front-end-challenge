@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './shareNannyCost.css';
-import './sharePayment.css'
+import './sharePayment.css';
 import './frameworkLongTerm.css';
 
 
@@ -37,4 +37,9 @@ function ImageParagraphLink({ className, text, href }) {
 
 
 
-export { ImageParagraphParagraph, ImageParagraphTitle, ImageParagraphImage, ImageParagraphLink };
+export {
+  ImageParagraphParagraph,
+  ImageParagraphTitle,
+  ImageParagraphImage,
+  ImageParagraphLink
+};

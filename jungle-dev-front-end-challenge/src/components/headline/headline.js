@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import crypto from 'crypto';
-import playIcon from '../../images/homePage/playIcon.svg';
-import greetingImage from '../../images/homePage/greetingImage.svg';
-import './headline.css'
 import {
   createInstance,
   OptimizelyFeature,
   OptimizelyProvider,
   withOptimizely
 } from '@optimizely/react-sdk';
+import playIcon from '../../images/homePage/playIcon.svg';
+import greetingImage from '../../images/homePage/greetingImage.svg';
+import './headline.css'
 
 
 const optimizely = createInstance({
@@ -38,8 +38,8 @@ function HeadLine() {
   useEffect(() => {
     if (!localStorage.getItem('userId')) {
       crypto.randomBytes(16, (err, hash) => {
-        const userId = hash.toString('hex')
-        localStorage.setItem('userId', userId)
+        const userId = hash.toString('hex');
+        localStorage.setItem('userId', userId);
         setUserId(userId);
       })
     } else {
@@ -63,7 +63,12 @@ function HeadLine() {
             <OptimizelyFeature feature="JungleDevs">
               {(enabled, variables) => (
                 <div>
-                  <h1 data-testid="h1-home-page" className="h1-home-page">{variables.hero_test.title}</h1>
+                  <h1
+                    data-testid="h1-home-page"
+                    className="h1-home-page"
+                  >
+                    {variables.hero_test.title}
+                  </h1>
                   <p className="p-home-page">{variables.hero_test.description}</p>
                 </div>
               )}

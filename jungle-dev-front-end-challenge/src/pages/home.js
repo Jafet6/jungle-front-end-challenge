@@ -1,5 +1,5 @@
-import './homePage.css';
 import React from 'react';
+import './homePage.css';
 import Head from '../patterns/head';
 import Header from '../patterns/header';
 import Footer from '../patterns/footer';

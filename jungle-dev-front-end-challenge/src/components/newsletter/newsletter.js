@@ -29,13 +29,40 @@ function NewsLetter() {
     <section className='newsletter-container'>
       <div className='newsletter-content'>
         <div className='newsletter-text-content'>
-          <h3 className='newsletter-title'>Are you a parent without a nanny and looking to share?</h3>
-          <p>Leave us your name and email and we’ll update you as soon as a share becomes available in your area!</p>
+          <h3
+            className='newsletter-title'
+          >
+            Are you a parent without a nanny and looking to share?
+          </h3>
+          <p>
+            Leave us your name and email and we’ll update 
+            you as soon as a share becomes available in your area!
+          </p>
         </div>
         <div className='newsletter-input-container'>
-          <input data-testid='userName' label="userName" onChange={(e) => setName(e.target.value)} className="newsletter-input" type="text" placeholder="Your name" />
-          <input data-testid='userEmail' label="userEmail" onChange={(e) => setEmail(e.target.value)} className="newsletter-input" type="text" placeholder="Your email" />
-          <button onClick={(e) => handleClick(e)} className="newsletter-send-button" type="button">Send</button>
+          <input
+            data-testid='userName'
+            label="userName"
+            onChange={(e) => setName(e.target.value)}
+            className="newsletter-input"
+            type="text"
+            placeholder="Your name"
+          />
+          <input
+            data-testid='userEmail'
+            label="userEmail"
+            onChange={(e) => setEmail(e.target.value)}
+            className="newsletter-input"
+            type="text"
+            placeholder="Your email"
+          />
+          <button
+            onClick={(e) => handleClick(e)}
+            className="newsletter-send-button"
+            type="button"
+            >
+            Send
+          </button>
         </div>
         {newsLetterMessage ? <p className="newsletter-p">{newsLetterMessage}</p> : null}
       </div>

@@ -1,6 +1,6 @@
-import './header.css';
 import React from 'react';
 import { Link } from "react-router-dom";
+import './header.css';
 import shape from '../images/homePage/shape.svg';
 
 
