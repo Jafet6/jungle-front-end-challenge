@@ -63,7 +63,7 @@ function HeadLine() {
             <OptimizelyFeature feature="JungleDevs">
               {(enabled, variables) => (
                 <div>
-                  <h1 className="h1-home-page">{variables.hero_test.title}</h1>
+                  <h1 data-testid="h1-home-page" className="h1-home-page">{variables.hero_test.title}</h1>
                   <p className="p-home-page">{variables.hero_test.description}</p>
                 </div>
               )}

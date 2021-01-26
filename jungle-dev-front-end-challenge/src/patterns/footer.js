@@ -34,9 +34,15 @@ function Footer() {
           <Link className="footer-normal-link" to='/11'>Terms & Privacy</Link>
         </div>
         <div className="footer-social-media-container">
-          <img className="footer-social-media" src={facebook} alt='Facebook`s logo' />
-          <img className="footer-social-media" src={twitter} alt='Twitter`s logo' />
-          <img className="footer-social-media" src={instagram} alt='Instagram`s logo' />
+          <Link to='/12' className="footer-social-media">
+            <img src={facebook} alt='Facebook`s logo' />
+          </Link>
+          <Link to='/13' className="footer-social-media">
+            <img src={twitter} alt='Twitter`s logo' />
+          </Link>
+          <Link to='/14' className="footer-social-media">
+            <img src={instagram} alt='Instagram`s logo' />
+          </Link>
         </div>
       </div>
       <div className="footer-divider">

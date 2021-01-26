@@ -33,8 +33,8 @@ function NewsLetter() {
           <p>Leave us your name and email and we’ll update you as soon as a share becomes available in your area!</p>
         </div>
         <div className='newsletter-input-container'>
-          <input onChange={(e) => setName(e.target.value)} className="newsletter-input" type="text" placeholder="Your name" />
-          <input onChange={(e) => setEmail(e.target.value)} className="newsletter-input" type="text" placeholder="Your email" />
+          <input data-testid='userName' label="userName" onChange={(e) => setName(e.target.value)} className="newsletter-input" type="text" placeholder="Your name" />
+          <input data-testid='userEmail' label="userEmail" onChange={(e) => setEmail(e.target.value)} className="newsletter-input" type="text" placeholder="Your email" />
           <button onClick={(e) => handleClick(e)} className="newsletter-send-button" type="button">Send</button>
         </div>
         {newsLetterMessage ? <p className="newsletter-p">{newsLetterMessage}</p> : null}
