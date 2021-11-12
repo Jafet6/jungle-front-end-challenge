@@ -34,7 +34,7 @@ function Footer() {
           <Link className="footer-normal-link" to='/11'>Terms & Privacy</Link>
         </div>
         <div className="footer-social-media-container">
-          <Link to='/12' className="footer-social-media">
+          <Link to='/teste' className="footer-social-media">
             <img src={facebook} alt='Facebook`s logo' />
           </Link>
           <Link to='/13' className="footer-social-media">

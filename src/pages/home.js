@@ -13,6 +13,7 @@ import nannyCostStructure from '../components/imageParagraphComponent/structures
 import sharePaymentStructure from '../components/imageParagraphComponent/structures/sharePaymentsStructure';
 import frameWorkStructure from '../components/standardSection/structures/frameWorkStructure';
 import comingSoonStructure from '../components/standardSection/structures/comingSoonStructure';
+import { Link } from 'react-router-dom'
 
 function HomePage() {
   return (
